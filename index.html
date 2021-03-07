@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe search app</title>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <section class="upper-part">
+                <span class="overlay">
+                <div class="meal-intro">
+                    <h1 class="title">Find Recipes for <br> Ingredients you have</h1>
+                    <p class="content">Haven’t decided what to eat for dinner? <br>
+                        Simply type any ingredients you have in fridge and check some options!</p>
+                </div>
+                <div class="meal-search-box">
+                    <input type="text" placeholder="Enter an Ingredient" class="search-control" id="search-input"></input> 
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </span>
+            </section>
+
+            <section class="lower-part">
+                <div class="meal-result">
+               
+                    <div id="meals">
+                        <!---- Meal Item ---->
+                        <!-- <div class="meal-item">
+                            <div class="meal-img">
+                                <img src="food.jpg" alt="food-img">
+                            </div>
+                            <div class="meal-name">
+                                <h3>Sirloin Steak</h3>
+                                <a href="#" class="recipe-btn">Get Recipe</a>
+                            </div>
+                        </div> -->
+                         <!---- End of Meal Item ---->
+                    </div>
+                </div>
+            </section>
+           
+
+            <div class="meal-details">
+                <!--- recipe close btn --->
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn"><i class="fas fa-times"></i></button>
+
+                <div class="meal-details-content">
+                    <!-- <h2 class="recipe-title">Meals Name Here</h2>
+                    <p class="recipe-category">Category Name</p>
+                    <div class="recipe-inst">
+                        <h3>Instruction:</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, distinctio fuga? Nostrum dolor ratione totam repudiandae voluptas id dignissimos praesentium ipsum quis itaque, ipsa nulla ex eius? Saepe ea, labore voluptatum sunt vitae accusantium ipsam dolore. Eum hic exercitationem excepturi repellendus magnam quibusdam necessitatibus quidem beatae in perspiciatis, soluta consequuntur.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, distinctio fuga? Nostrum dolor ratione totam repudiandae voluptas id dignissimos praesentium ipsum quis itaque, ipsa nulla ex eius? Saepe ea, labore voluptatum sunt vitae accusantium ipsam dolore. Eum hic exercitationem excepturi repellendus magnam quibusdam necessitatibus quidem beatae in perspiciatis, soluta consequuntur.</p>
+                    </div>
+                    <div class="recipe-meal-img">
+                        <img src="food.jpg" alt="recipe-img">
+                    </div>
+                    <div class="recipe-link">
+                        <a href="#" target="_blank">Watch Video</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
